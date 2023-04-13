@@ -1,0 +1,26 @@
+[  
+    {   
+    "id": 1,   
+    "categoryLogo": "./assets/Icons/chip 1.png",   
+    "categoryName": "Software Engineer",    
+    "availableJob": 350 
+    }, 
+    { 
+    "id": 2,    
+    "categoryLogo": "./assets/Icons/business 1.png",   
+    "categoryName": "Data Analyst",  
+    "availableJob": 620  
+    }, 
+    {
+    "id": 3,  
+    "categoryLogo": "./assets/Icons/accounts 1.png",  
+    "categoryName": "Accounts and finance", 
+    "availableJob": 425  
+    }, 
+    {  
+    "id": 4,    
+    "categoryLogo": "./assets/Icons/social-media 1.png", 
+    "categoryName": "Marketing Specialist", 
+    "availableJob": 812 
+    }
+]
