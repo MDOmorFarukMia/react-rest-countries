@@ -1,4 +1,4 @@
-import { GithubAuthProvider, GoogleAuthProvider, getAuth, signInWithPopup } from 'firebase/auth'
+import { GithubAuthProvider, GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, signInWithPopup } from 'firebase/auth'
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { AuthContext } from '../../Context/ContextProvider'
@@ -11,6 +11,9 @@ const anoProvider = new GithubAuthProvider();
 
 const Register = () => {
 
+   
+
+    //Google signIn
 
 const handleWithGoogle = () => {
     signInWithPopup(auth, provider)
@@ -21,7 +24,7 @@ const handleWithGoogle = () => {
     .catch(error => console.error(error))
 }
 
-
+// Github signIn
 const handleWithGithub = () => {
     signInWithPopup(auth, anoProvider)
     .then(result => {

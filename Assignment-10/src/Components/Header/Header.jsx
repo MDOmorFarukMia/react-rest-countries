@@ -1,7 +1,23 @@
+import { getAuth, signOut } from "firebase/auth";
 import React from "react";
 import { Link } from "react-router-dom";
+import app from "../../Auth/firebase.config";
+
+const auth = getAuth(app)
 
 const Header = () => {
+
+const logOut = () => {
+  signOut(auth)
+  .then(() => {
+
+  })
+  .catch(error => console.error(error
+    ))
+}
+
+
+
   return (
     <div className="w-10/12 mx-auto">
       <div className="navbar bg-base-100">
@@ -100,7 +116,7 @@ const Header = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Logout</a>
+                <button onClick={logOut}>Logout</button>
               </li>
             </ul>
           </div>
