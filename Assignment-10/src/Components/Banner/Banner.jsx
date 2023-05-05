@@ -22,6 +22,7 @@ const Banner = () => {
                         <img src={img1} alt="" className="object-contain" />
                     </div>
                 </div>
+
             </div>
         </section>
 
