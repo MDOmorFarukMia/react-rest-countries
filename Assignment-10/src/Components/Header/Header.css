@@ -1,0 +1,30 @@
+.header{
+    color: darkgoldenrod;
+    font-size: larger;
+}
+
+.Navber{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(127, 255, 212, 0.454);
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    align-items: center;
+    
+}
+.Navber-info{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Navber-info a{
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: rgba(77, 154, 110, 0.678);
+    font-size: larger;
+    text-decoration: none;
+    
+}

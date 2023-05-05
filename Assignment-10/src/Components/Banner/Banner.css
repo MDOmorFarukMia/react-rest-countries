@@ -1,0 +1,25 @@
+.Banner {
+    display: flex;
+    gap: 150px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Banner img {
+    height: 500px;
+    width: 700px;
+}
+
+.h2{
+    color: rgba(60, 147, 182, 0.862);
+    align-items: center;
+}
+
+.text {
+    color: rgba(70, 158, 155, 0.901);
+    font-size: larger;
+    font-weight: bolder;
+    line-height: initial;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

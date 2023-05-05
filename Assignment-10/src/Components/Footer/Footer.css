@@ -1,0 +1,6 @@
+.Footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(26, 15, 15, 0.078);
+    margin-top: 20px;
+}
